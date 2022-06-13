@@ -10,6 +10,11 @@ import Footer from './components/footer/Footer';
 import Qualification from './components/trial/Qualification';
 
 const App = () => {
+  const service_id = process.env.REACT_APP_EMAILJS_SERVICE_ID
+  const template_id = process.env.REACT_APP_EMAILJS_TEMPLATE_ID
+  const public_key = process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+  const mobileNum = process.env.REACT_APP_CONTACT_INFO_MOBILE_NUM
+
   return (
     <>
       <Header/>
@@ -19,7 +24,7 @@ const App = () => {
       <Experience/>
       <Portfolio/>
       <Testimonials/>
-      <Contact/>
+      <Contact service_id={service_id} template_id={template_id} public_key={public_key} mobileNum={mobileNum} />
       <Footer/>
     </>
   )

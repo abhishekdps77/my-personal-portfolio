@@ -21,8 +21,8 @@ const Portfolio = () => {
         </div>
           <h3>Cuisine Bharat</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/abhishekdps77/Cuisine-Bharat" className='btn' target="_blank">Github</a>
-          <a href="https://abhishekdps77.github.io/Cuisine-Bharat/" className='btn' target='_blank'>Live Demo</a>
+          <a href="https://github.com/abhishekdps77/Cuisine-Bharat" className='btn' target="_blank" rel="noreferrer">Github</a>
+          <a href="https://abhishekdps77.github.io/Cuisine-Bharat/" className='btn' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
 
@@ -32,8 +32,8 @@ const Portfolio = () => {
         </div>
           <h3>My Personal Portfolio</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn' target="_blank">Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn' target='_blank'>Live Demo</a>
+          <a href="https://github.com" className='btn' target="_blank" rel="noreferrer">Github</a>
+          <a href="https://dribbble.com/Alien_pixels" className='btn' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
 
@@ -43,8 +43,8 @@ const Portfolio = () => {
         </div>
           <h3>News Monkey</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/abhishekdps77/News-Monkey-ReactJS" className='btn' target="_blank">Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn' target='_blank'>Live Demo</a>
+          <a href="https://github.com/abhishekdps77/News-Monkey-ReactJS" className='btn' target="_blank" rel="noreferrer">Github</a>
+          <a href="https://dribbble.com/Alien_pixels" className='btn' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
 
@@ -54,8 +54,8 @@ const Portfolio = () => {
         </div>
           <h3>Covid Tracker</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/abhishekdps77/CovidWatch" className='btn' target="_blank">Github</a>
-          <a href="https://abhishekdps77.github.io/CovidWatch/" className='btn' target='_blank'>Live Demo</a>
+          <a href="https://github.com/abhishekdps77/CovidWatch" className='btn' target="_blank" rel="noreferrer">Github</a>
+          <a href="https://abhishekdps77.github.io/CovidWatch/" className='btn' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
 
@@ -65,8 +65,8 @@ const Portfolio = () => {
         </div>
           <h3>IMDb Clone</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/abhishekdps77/IMDb" className='btn' target="_blank">Github</a>
-          <a href="https://abhishekdps77.github.io/IMDb/" className='btn' target='_blank'>Live Demo</a>
+          <a href="https://github.com/abhishekdps77/IMDb" className='btn' target="_blank" rel="noreferrer">Github</a>
+          <a href="https://abhishekdps77.github.io/IMDb/" className='btn' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
 
@@ -76,8 +76,8 @@ const Portfolio = () => {
         </div>
           <h3>Weather Lens</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/abhishekdps77/Weather-Lens-App" className='btn' target="_blank">Github</a>
-          <a href="https://abhishekdps77.github.io/Weather-Lens-App/" className='btn' target='_blank'>Live Demo</a>
+          <a href="https://github.com/abhishekdps77/Weather-Lens-App" className='btn' target="_blank" rel="noreferrer">Github</a>
+          <a href="https://abhishekdps77.github.io/Weather-Lens-App/" className='btn' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
 

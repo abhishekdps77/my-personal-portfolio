@@ -11,7 +11,7 @@ import CERT8 from '../../assets/certificate8.png';
 
 
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, Scrollbar } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 

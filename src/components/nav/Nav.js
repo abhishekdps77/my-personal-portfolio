@@ -2,7 +2,7 @@ import React from 'react';
 import './nav.css';
 import {AiOutlineHome ,AiOutlineUser} from 'react-icons/ai';
 import {BsFillTelephoneOutboundFill} from 'react-icons/bs'
-import {BiBook,BiMessageSquareDetail} from 'react-icons/bi';
+import {BiBook} from 'react-icons/bi';
 import {AiFillProject} from 'react-icons/ai';
 import {MdSchool} from 'react-icons/md'
 import { useState } from 'react';

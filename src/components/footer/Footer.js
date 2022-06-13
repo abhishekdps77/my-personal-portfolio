@@ -21,12 +21,12 @@ const Footer = () => {
     </ul>
 
     <div className="footer__socials">
-      <a href="https://github.com/abhishekdps77?tab=repositories" target='_blank'><SiGithub className='footer__socials-icon'/></a>
-      <a href="https://www.instagram.com/abhi.shek.77/" target='_blank'><FaInstagram className='footer__socials-icon'/></a>
-      <a href="https://www.instagram.com/abhi.shek.77/" target='_blank'><SiLeetcode className='footer__socials-icon'/></a>
-      <a href="https://twitter.com/abhishekdps77" target='_blank'><FaTwitter className='footer__socials-icon'/></a>
-      <a href="https://www.codingninjas.com/codestudio/profile/f3e4f1fd-da00-4334-b5e1-6828e8325049" target='_blank'><SiCodingninjas className='footer__socials-icon'/></a>
-      <a href="https://auth.geeksforgeeks.org/user/abhishekdps77/profile" target='_blank'><SiGeeksforgeeks className='footer__socials-icon'/></a>
+      <a href="https://github.com/abhishekdps77?tab=repositories" target='_blank' rel="noreferrer"><SiGithub className='footer__socials-icon'/></a>
+      <a href="https://www.instagram.com/abhi.shek.77/" target='_blank' rel="noreferrer"><FaInstagram className='footer__socials-icon'/></a>
+      <a href="https://www.instagram.com/abhi.shek.77/" target='_blank' rel="noreferrer"><SiLeetcode className='footer__socials-icon'/></a>
+      <a href="https://twitter.com/abhishekdps77" target='_blank' rel="noreferrer"><FaTwitter className='footer__socials-icon'/></a>
+      <a href="https://www.codingninjas.com/codestudio/profile/f3e4f1fd-da00-4334-b5e1-6828e8325049" target='_blank' rel="noreferrer"><SiCodingninjas className='footer__socials-icon'/></a>
+      <a href="https://auth.geeksforgeeks.org/user/abhishekdps77/profile" target='_blank' rel="noreferrer"><SiGeeksforgeeks className='footer__socials-icon'/></a>
     </div>
 
     <div className="footer__copyright">

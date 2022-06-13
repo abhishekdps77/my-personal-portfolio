@@ -3,17 +3,17 @@ import './contact.css';
 import {MdOutlineEmail} from 'react-icons/md';
 import {RiTwitterLine,RiSendPlane2Line} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
-import {FaLocationArrow} from 'react-icons/fa'
 import { useRef } from 'react';
-import emailjs, { send } from 'emailjs-com'
+import emailjs from 'emailjs-com'
 
-const Contact = () => {
+const Contact = (props) => {
+
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_4sgmjc8', 'template_17hueyp', form.current, '5SPDtQs8uPinbYRBD')
+    emailjs.sendForm(props.service_id, props.template_id, form.current, props.public_key)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -33,21 +33,22 @@ const Contact = () => {
         <MdOutlineEmail className='contact__option-icon'/>
         <h4>E-mail</h4>
         <h5>abhisheknsit77@gmail.com</h5>
-        <a href="mailto:abhisheknsit77@gmail.com" target='_blank'>Send a message</a>
+        <a href="mailto:abhisheknsit77@gmail.com" target='_blank' rel="noreferrer">Send a message</a>
         </article>
 
         <article className='contact__option'>
         <RiTwitterLine className='contact__option-icon'/>
         <h4>Twitter</h4>
         <h5>@abhishekdps77</h5>
-        <a href="https://twitter.com/messages/compose?recipient_id=abhishekdps77&text=" target='_blank'>Send a message</a>
+        <a href="https://twitter.com/messages/compose?recipient_id=abhishekdps77&text=" target='_blank' rel="noreferrer">Send a message</a>
         </article>
 
         <article className='contact__option'>
         <BsWhatsapp className='contact__option-icon'/>
         <h4>Whatsapp</h4>
-        <h5>+91 9354263959</h5>
-        <a href="https://wa.me/919953114275" target='_blank'>Send a message</a>
+        <h5>+91 xxxxxxx959</h5>
+        
+        <a href="" target='_blank' rel="noreferrer">Send a message</a>
         </article>
       </div>
       {/* END OF CONTACT OPTIONS */}
