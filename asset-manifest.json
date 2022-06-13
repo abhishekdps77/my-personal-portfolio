@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/my-personal-portfolio/static/css/main.ede0380f.css",
+    "main.js": "/my-personal-portfolio/static/js/main.a674a7f1.js",
+    "static/media/prtofolio1.png": "/my-personal-portfolio/static/media/prtofolio1.4d963642349e45597775.png",
+    "static/media/portfolio3.png": "/my-personal-portfolio/static/media/portfolio3.c6b071a81a5f61d3dd6d.png",
+    "static/media/portfolio5.png": "/my-personal-portfolio/static/media/portfolio5.80a0cbf544cb598d435b.png",
+    "static/media/me-about.jpg": "/my-personal-portfolio/static/media/me-about.44b7d28a0cc2896e0526.jpg",
+    "static/media/certificate5.png": "/my-personal-portfolio/static/media/certificate5.588036b90f286fab1214.png",
+    "static/media/certificate1.png": "/my-personal-portfolio/static/media/certificate1.8855d30ff2baf0eb3de8.png",
+    "static/media/certificate3.png": "/my-personal-portfolio/static/media/certificate3.f508212d3baa1857e357.png",
+    "static/media/certificate2.png": "/my-personal-portfolio/static/media/certificate2.3a23cae625c202a39eeb.png",
+    "static/media/certificate4.png": "/my-personal-portfolio/static/media/certificate4.588aeafa5ca24ed0e86c.png",
+    "static/media/certificate7.png": "/my-personal-portfolio/static/media/certificate7.9e6a865bd7e1e16a27fe.png",
+    "static/media/portfolio4.png": "/my-personal-portfolio/static/media/portfolio4.e7445ec4ccf365493fcd.png",
+    "static/media/me1.png": "/my-personal-portfolio/static/media/me1.ac9eb56a8373a3299d63.png",
+    "static/media/portfolio6.png": "/my-personal-portfolio/static/media/portfolio6.992e4a775ea05ab8f1ae.png",
+    "static/media/certificate6.png": "/my-personal-portfolio/static/media/certificate6.6165fdd5c622c0800187.png",
+    "static/media/certificate8.png": "/my-personal-portfolio/static/media/certificate8.2fd34d71a6edf920e8cb.png",
+    "static/media/portfolio2.png": "/my-personal-portfolio/static/media/portfolio2.794e9d5d901b1bc10cb1.png",
+    "static/media/cv.pdf": "/my-personal-portfolio/static/media/cv.924316ab0fbaaba22f3a.pdf",
+    "index.html": "/my-personal-portfolio/index.html",
+    "main.ede0380f.css.map": "/my-personal-portfolio/static/css/main.ede0380f.css.map",
+    "main.a674a7f1.js.map": "/my-personal-portfolio/static/js/main.a674a7f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ede0380f.css",
+    "static/js/main.a674a7f1.js"
+  ]
+}
